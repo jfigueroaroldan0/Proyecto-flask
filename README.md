@@ -183,7 +183,7 @@ La web está alojado en **[Railway](https://railway.com/)**, una plataforma de d
 - Integración nativa con GitHub — push y despliega
 - Panel de logs en tiempo real
 - Dominio HTTPS gratuito incluido
-- Plan gratuito suficiente para proyectos académicos
+- Plan gratuito suficiente para proyectos básicos
 
 ---
 

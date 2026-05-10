@@ -173,7 +173,7 @@ El archivo `motos.json` contiene un array de objetos con la siguiente estructura
 
 La web está alojado en **[Railway](https://railway.com/)**, una plataforma de despliegue en la nube que conecta directamente con GitHub y gestiona toda la infraestructura automáticamente, sin necesidad de configurar servidores.
 
-**🌐 Acceso público:** **[https://motoexplorer-production.up.railway.app/](https://web-production-3003d.up.railway.app/)**
+**🌐 Acceso público:** **https://web-production-3003d.up.railway.app**
 
 ---
 

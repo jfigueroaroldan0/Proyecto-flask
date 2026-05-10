@@ -41,32 +41,28 @@ Proyecto-flask/
 ### 1. Clona o descarga el proyecto
 
 ```bash
-unzip motoapp.zip
-cd motoapp
+git clone https://github.com/jfigueroaroldan0/Proyecto-flask.git
+cd Proyecto-Flask
 ```
 
-### 2. Crea un entorno virtual (recomendado)
+### 2. Crear entorno virtual
 
 ```bash
-python -m venv venv
+python -m venv app
 
-# En Windows:
-venv\Scripts\activate
-
-# En macOS/Linux:
-source venv/bin/activate
+source app/bin/activate
 ```
 
 ### 3. Instala las dependencias
 
 ```bash
-pip install flask
+pip install -r requirements.txt
 ```
 
 ### 4. Ejecuta la aplicación
 
 ```bash
-python app.py
+python3 app.py
 ```
 
 ### 5. Abre en el navegador

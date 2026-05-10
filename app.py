@@ -19,4 +19,8 @@ def formato_precio(value):
 def index():
     return render_template("index.html")
 
+@app.errorhandler(404)
+def error(e):
+    return render_template("404.html"), 404
+
 app.run("0.0.0.0",5000,debug=True)

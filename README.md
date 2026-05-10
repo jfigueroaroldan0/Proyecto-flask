@@ -6,7 +6,7 @@ Aplicación web desarrollada con **Flask** que permite visualizar, buscar y filt
 
 ## 📋 Descripción
 
-MotoExplorer es un proyecto que trabaja con un JSON propio de **32 modelos** de motos off-road de marcas como KTM, Husqvarna, Yamaha, Honda, Kawasaki, Suzuki, Beta, GasGas, Sherco y TM Racing. Cada modelo incluye nombre, marca, tipo, cilindrada, potencia, peso, precio y descripción técnica.
+EnduroX es un proyecto que trabaja con un JSON propio de **32 modelos** de motos off-road de marcas como KTM, Husqvarna, Yamaha, Honda, Kawasaki, Suzuki, Beta, GasGas, Sherco y TM Racing. Cada modelo incluye nombre, marca, tipo, cilindrada, potencia, peso, precio y descripción técnica.
 
 > **Origen de los datos:** JSON elaborado a partir de fichas técnicas públicas de los fabricantes, ampliado y modificado con campos adicionales (potencia en CV, peso en kg, descripción propia).
 

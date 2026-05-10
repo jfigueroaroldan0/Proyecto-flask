@@ -58,8 +58,7 @@ def items():
     else:
         titulo = "Catálogo de Motos"
 
-    return render_template(
-        "catalogo.html", motos=motos, marcas=marcas, titulo=titulo, total_resultados=len(motos), nombre_busqueda=nombre_busqueda, marca_seleccionada=marca_seleccionada, tipo_seleccionado=tipo_seleccionado, ordenar=ordenar)
+    return render_template("catalogo.html", motos=motos, marcas=marcas, titulo=titulo, total_resultados=len(motos), nombre_busqueda=nombre_busqueda, marca_seleccionada=marca_seleccionada, tipo_seleccionado=tipo_seleccionado, ordenar=ordenar)
 
 @app.route("/motos/<int:id>")
 def detalle(id):

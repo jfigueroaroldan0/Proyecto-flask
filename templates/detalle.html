@@ -5,7 +5,7 @@
 {% block content %}
 <div class="container">
     <div class="back-link">
-        <a href="{{ url_for('items') }}" class="btn-back">
+        <a href="{{ url_for('items', **request.args) }}" class="btn-back">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M19 12H5"/>
                 <path d="M12 19l-7-7 7-7"/>
@@ -16,7 +16,7 @@
 
     <div class="detail-page">
         <div class="detail-image">
-            <img src="{{ moto.imagen }}" alt="{{ moto.nombre }}">
+            <img src="{{ moto.imagen }}" alt="{{ moto.nombre }}" referrerpolicy="no-referrer" loading="lazy">
         </div>
 
         <div class="detail-info">

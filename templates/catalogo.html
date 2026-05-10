@@ -63,16 +63,18 @@
                         <span class="moto-badge badge-{{ moto.tipo|lower }}">{{ moto.tipo }}</span>
                     </td>
                     <td class="col-info">
-                        <span class="info-item">{{ moto.marca }}</span>
-                        <span class="info-separator">|</span>
-                        <span class="info-item">{{ moto.cilindrada }}cc</span>
-                        <span class="info-separator">|</span>
-                        <span class="info-item">{{ moto.potencia_cv }} CV</span>
-                        <span class="info-separator">|</span>
-                        <span class="info-item">{{ moto.precio_euros | formato_precio }}</span>
+                        <div class="info-wrap">
+                            <span class="info-item">{{ moto.marca }}</span>
+                            <span class="info-separator">|</span>
+                            <span class="info-item">{{ moto.cilindrada }}cc</span>
+                            <span class="info-separator">|</span>
+                            <span class="info-item">{{ moto.potencia_cv }} CV</span>
+                            <span class="info-separator">|</span>
+                            <span class="info-item">{{ moto.precio_euros | formato_precio }}</span>
+                        </div>
                     </td>
                     <td class="col-action">
-                        <a href="{{ url_for('detalle', id=moto.id) }}" class="btn-detail">Ver ficha</a>
+                        <a href="{{ url_for('detalle', id=moto.id, **request.args) }}" class="btn-detail">Ver ficha</a>
                     </td>
                 </tr>
                 {% endfor %}

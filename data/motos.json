@@ -8,7 +8,7 @@
         "potencia_cv": 50,
         "peso_kg": 103.8,
         "precio_euros": 8999,
-        "imagen": "https://www.ktm.com/es-es/models/enduro/4-tiempos/2025-ktm-250-excfchampionedition.html",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/0b/KTM_250_SX-F_-_Mondial_de_l%27Automobile_de_Paris_2018_-_001.jpg",
         "descripcion": "La KTM 250 SX-F es la referencia en la categoria de 250cc de cuatro tiempos. Con un motor compacto y ligero, ofrece un rendimiento excepcional en pistas de motocross."
     },
     {
@@ -20,7 +20,7 @@
         "potencia_cv": 55,
         "peso_kg": 105.2,
         "precio_euros": 10299,
-        "imagen": "https://enduro21.com/es/motos/ultimos/ktm-300-exc-tpi-test-exhaustivo-de-accesorios",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/b3/2017_KTM_300_XC-W_Six_Days.jpg",
         "descripcion": "La reina del enduro inyectada en dos tiempos. Potencia instantanea, gestion electronica avanzada y chasis listo para los terrenos mas duros."
     },
     {
@@ -32,7 +32,7 @@
         "potencia_cv": 63,
         "peso_kg": 106.4,
         "precio_euros": 10699,
-        "imagen": "https://press.ktm.com/news-ktm-desvela-su-modelo-en-edicin-especial-ktm-350-exc-f-wess?id=114433&menueid=5790&l=spain",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/78/KTM_350_EXC-F_2015.JPG",
         "descripcion": "El equilibrio perfecto entre la manejabilidad de una 250 y la potencia de una 450. Ideal para pilotos que buscan versatilidad."
     },
     {
@@ -44,7 +44,7 @@
         "potencia_cv": 63,
         "peso_kg": 108.9,
         "precio_euros": 10299,
-        "imagen": "https://press.ktm.com/news-presentada-la-ktm-450-sx-f-factory-edition-2021-resume-la-excelencia-de-la-competicin?id=120036&menueid=5790&l=spain",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/92/KTM_SX-F_450_-_Dungey.jpg",
         "descripcion": "Moto de motocross de alto rendimiento. Motor de 450cc con entrega de potencia lineal y chasis de aluminio ultraligero."
     },
     {
@@ -92,7 +92,7 @@
         "potencia_cv": 52,
         "peso_kg": 98.0,
         "precio_euros": 8699,
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/50/Husqvarna_FC_450.jpg",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Husqvarna_TC_250_%2823301755760%29.jpg",
         "descripcion": "Pura potencia de dos tiempos en un chasis ultraligero. Ideal para pilotos agresivos que buscan adrenalina pura."
     },
     {
@@ -104,7 +104,7 @@
         "potencia_cv": 48,
         "peso_kg": 108.0,
         "precio_euros": 8499,
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Yamaha_YZ450F.jpg",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Yamaha_YZ250F_-_EICMA_2024.jpg",
         "descripcion": "Motor con cilindro invertido y chasis de aluminio Bilbeam. Tecnologia probada en el campeonato mundial MXGP."
     },
     {
@@ -320,7 +320,7 @@
         "potencia_cv": 50,
         "peso_kg": 104.0,
         "precio_euros": 9199,
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/50/Husqvarna_FC_450.jpg",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Husqvarna_FC_250_%2823301917975%29.jpg",
         "descripcion": "Elegancia y potencia en 250cc. Subchasis de carbono, suspension XACT y aerodinamica optimizada."
     },
     {

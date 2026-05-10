@@ -1,6 +1,5 @@
-import flask
-import os
 from flask import Flask, render_template, request, abort
+import os
 
 app = Flask(__name__)
 

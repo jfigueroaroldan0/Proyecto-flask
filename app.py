@@ -19,6 +19,47 @@ def formato_precio(value):
 def index():
     return render_template("index.html")
 
+@app.route("/motos")
+def items():
+    nombre_busqueda    = request.args.get("nombre", "").strip()
+    marca_seleccionada = request.args.get("marca", "").strip()
+    tipo_seleccionado  = request.args.get("tipo", "").strip()
+    ordenar            = request.args.get("ordenar", "nombre_asc").strip()
+
+    motos = MOTOS[:]
+
+    if nombre_busqueda:
+        motos = [m for m in motos if nombre_busqueda.lower() in m["nombre"].lower()]
+
+    if marca_seleccionada:
+        motos = [m for m in motos if m["marca"] == marca_seleccionada]
+
+    if tipo_seleccionado:
+        motos = [m for m in motos if m["tipo"] == tipo_seleccionado]
+
+    order_map = {
+        "nombre_asc":      ("nombre",        False),
+        "nombre_desc":     ("nombre",        True),
+        "precio_asc":      ("precio_euros",  False),
+        "precio_desc":     ("precio_euros",  True),
+        "cilindrada_asc":  ("cilindrada",    False),
+        "cilindrada_desc": ("cilindrada",    True),
+    }
+    key, reverse = order_map.get(ordenar, ("nombre", False))
+    motos.sort(key=lambda m: m[key], reverse=reverse)
+
+    marcas = sorted({m["marca"] for m in MOTOS})
+
+    if tipo_seleccionado:
+        titulo = f"Motos de {tipo_seleccionado}"
+    elif nombre_busqueda or marca_seleccionada:
+        titulo = "Resultados de búsqueda"
+    else:
+        titulo = "Catálogo de Motos"
+
+    return render_template(
+        "catalogo.html", motos=motos, marcas=marcas, titulo=titulo, total_resultados=len(motos), nombre_busqueda=nombre_busqueda, marca_seleccionada=marca_seleccionada, tipo_seleccionado=tipo_seleccionado, ordenar=ordenar)
+
 @app.errorhandler(404)
 def error(e):
     return render_template("404.html"), 404

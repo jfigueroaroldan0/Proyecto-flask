@@ -69,7 +69,7 @@
                         <span class="info-separator">|</span>
                         <span class="info-item">{{ moto.potencia_cv }} CV</span>
                         <span class="info-separator">|</span>
-                        <span class="info-item">{{ moto.precio_euros | format_price }}</span>
+                        <span class="info-item">{{ moto.precio_euros | formato_precio }}</span>
                     </td>
                     <td class="col-action">
                         <a href="{{ url_for('detalle', id=moto.id) }}" class="btn-detail">Ver ficha</a>

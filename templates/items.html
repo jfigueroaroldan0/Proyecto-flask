@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block title %}{{ titulo }} - ENDUROX{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1 class="page-title">{{ titulo }}</h1>
+        <p class="page-subtitle">{{ total_resultados }} moto{{ 's' if total_resultados != 1 else '' }} encontrada{{ 's' if total_resultados != 1 else '' }}</p>
+    </div>
+
+    <div class="search-section">
+        <form method="GET" action="{{ url_for('items') }}" class="search-form">
+            <div class="form-group">
+                <label for="nombre">Buscar por nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: KTM, Yamaha, Enduro..." value="{{ nombre_busqueda }}">
+            </div>
+
+            <div class="form-group">
+                <label for="marca">Filtrar por marca:</label>
+                <select id="marca" name="marca">
+                    <option value="">Todas las marcas</option>
+                    {% for m in marcas %}
+                    <option value="{{ m }}" {% if m == marca_seleccionada %}selected{% endif %}>{{ m }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="ordenar">Ordenar por:</label>
+                <select id="ordenar" name="ordenar">
+                    <option value="nombre_asc" {% if ordenar == 'nombre_asc' %}selected{% endif %}>Nombre (A-Z)</option>
+                    <option value="nombre_desc" {% if ordenar == 'nombre_desc' %}selected{% endif %}>Nombre (Z-A)</option>
+                    <option value="precio_asc" {% if ordenar == 'precio_asc' %}selected{% endif %}>Precio (menor a mayor)</option>
+                    <option value="precio_desc" {% if ordenar == 'precio_desc' %}selected{% endif %}>Precio (mayor a menor)</option>
+                    <option value="cilindrada_asc" {% if ordenar == 'cilindrada_asc' %}selected{% endif %}>Cilindrada (menor a mayor)</option>
+                    <option value="cilindrada_desc" {% if ordenar == 'cilindrada_desc' %}selected{% endif %}>Cilindrada (mayor a menor)</option>
+                </select>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-search">Buscar</button>
+                <a href="{{ url_for('items') }}" class="btn-clear">Limpiar</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="results-section">
+        {% if motos %}
+        <table class="results-table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Información</th>
+                    <th>Detalle</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for moto in motos %}
+                <tr>
+                    <td class="col-nombre">
+                        <div class="moto-name">{{ moto.nombre }}</div>
+                        <span class="moto-badge badge-{{ moto.tipo|lower }}">{{ moto.tipo }}</span>
+                    </td>
+                    <td class="col-info">
+                        <span class="info-item">{{ moto.marca }}</span>
+                        <span class="info-separator">|</span>
+                        <span class="info-item">{{ moto.cilindrada }}cc</span>
+                        <span class="info-separator">|</span>
+                        <span class="info-item">{{ moto.potencia_cv }} CV</span>
+                        <span class="info-separator">|</span>
+                        <span class="info-item">{{ moto.precio_euros | format_price }}</span>
+                    </td>
+                    <td class="col-action">
+                        <a href="{{ url_for('detalle', id=moto.id) }}" class="btn-detail">Ver ficha</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <div class="no-results">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/>
+                <path d="M21 21l-4.35-4.35"/>
+            </svg>
+            <p>No se encontraron motos con los criterios de búsqueda seleccionados.</p>
+            <a href="{{ url_for('items') }}" class="btn-clear">Ver todas las motos</a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

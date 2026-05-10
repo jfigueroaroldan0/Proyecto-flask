@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %}{{ moto.nombre }} - ENDUROX{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="back-link">
+        <a href="{{ url_for('items') }}" class="btn-back">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 12H5"/>
+                <path d="M12 19l-7-7 7-7"/>
+            </svg>
+            Volver al listado
+        </a>
+    </div>
+
+    <div class="detail-page">
+        <div class="detail-image">
+            <img src="{{ moto.imagen }}" alt="{{ moto.nombre }}">
+        </div>
+
+        <div class="detail-info">
+            <div class="detail-header">
+                <span class="moto-badge badge-{{ moto.tipo|lower }}">{{ moto.tipo }}</span>
+                <h1 class="detail-title">{{ moto.nombre }}</h1>
+                <p class="detail-brand">{{ moto.marca }}</p>
+            </div>
+
+            <p class="detail-description">{{ moto.descripcion }}</p>
+
+            <div class="specs-grid">
+                <div class="spec-card">
+                    <div class="spec-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <div class="spec-value">{{ moto.cilindrada }}cc</div>
+                    <div class="spec-label">Cilindrada</div>
+                </div>
+
+                <div class="spec-card">
+                    <div class="spec-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <div class="spec-value">{{ moto.potencia_cv }} CV</div>
+                    <div class="spec-label">Potencia</div>
+                </div>
+
+                <div class="spec-card">
+                    <div class="spec-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v20M2 12h20"/>
+                        </svg>
+                    </div>
+                    <div class="spec-value">{{ moto.peso_kg }} kg</div>
+                    <div class="spec-label">Peso</div>
+                </div>
+
+                <div class="spec-card spec-price">
+                    <div class="spec-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="1" x2="12" y2="23"/>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                    </div>
+                    <div class="spec-value">{{ moto.precio_euros | format_price }}</div>
+                    <div class="spec-label">Precio</div>
+                </div>
+            </div>
+
+            {% if moto.url_ficha %}
+            <a href="{{ moto.url_ficha }}" target="_blank" rel="noopener noreferrer" class="btn-official">
+                Ver ficha oficial del fabricante
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                    <polyline points="15 3 21 3 21 9"/>
+                    <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+            </a>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

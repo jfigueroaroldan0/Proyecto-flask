@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Error 404 - No encontrado{% endblock %}
+
+{% block content %}
+<div class="error-page">
+    <div class="error-content">
+        <h1 class="error-code">404</h1>
+        <h2 class="error-title">Moto no encontrada</h2>
+        <p class="error-message">La moto que buscas no existe o ha sido retirada del catálogo.</p>
+        <a href="{{ url_for('items') }}" class="btn-back-main">
+            Volver al listado de motos
+        </a>
+    </div>
+</div>
+{% endblock %}

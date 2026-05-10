@@ -8,7 +8,7 @@
         "potencia_cv": 50,
         "peso_kg": 103.8,
         "precio_euros": 8999,
-        "imagen": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://www.ktm.com/es-es/models/enduro/4-tiempos/2025-ktm-250-excfchampionedition.html",
         "descripcion": "La KTM 250 SX-F es la referencia en la categoria de 250cc de cuatro tiempos. Con un motor compacto y ligero, ofrece un rendimiento excepcional en pistas de motocross."
     },
     {
@@ -20,7 +20,7 @@
         "potencia_cv": 55,
         "peso_kg": 105.2,
         "precio_euros": 10299,
-        "imagen": "https://images.unsplash.com/photo-1622185135505-2d795003994a?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://enduro21.com/es/motos/ultimos/ktm-300-exc-tpi-test-exhaustivo-de-accesorios",
         "descripcion": "La reina del enduro inyectada en dos tiempos. Potencia instantanea, gestion electronica avanzada y chasis listo para los terrenos mas duros."
     },
     {
@@ -32,7 +32,7 @@
         "potencia_cv": 63,
         "peso_kg": 106.4,
         "precio_euros": 10699,
-        "imagen": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://press.ktm.com/news-ktm-desvela-su-modelo-en-edicin-especial-ktm-350-exc-f-wess?id=114433&menueid=5790&l=spain",
         "descripcion": "El equilibrio perfecto entre la manejabilidad de una 250 y la potencia de una 450. Ideal para pilotos que buscan versatilidad."
     },
     {
@@ -44,7 +44,7 @@
         "potencia_cv": 63,
         "peso_kg": 108.9,
         "precio_euros": 10299,
-        "imagen": "https://images.unsplash.com/photo-1580310614729-ccd69652491d?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://press.ktm.com/news-presentada-la-ktm-450-sx-f-factory-edition-2021-resume-la-excelencia-de-la-competicin?id=120036&menueid=5790&l=spain",
         "descripcion": "Moto de motocross de alto rendimiento. Motor de 450cc con entrega de potencia lineal y chasis de aluminio ultraligero."
     },
     {
@@ -56,7 +56,7 @@
         "potencia_cv": 62,
         "peso_kg": 107.0,
         "precio_euros": 10899,
-        "imagen": "https://images.unsplash.com/photo-1609630875171-b1321377ee65?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/93/Husqvarna_FE_450.jpg",
         "descripcion": "Tecnologia de vanguardia con diseño escandinavo. La FE 350 combina potencia controlada con una agilidad sobresaliente."
     },
     {
@@ -68,7 +68,7 @@
         "potencia_cv": 63,
         "peso_kg": 109.5,
         "precio_euros": 10499,
-        "imagen": "https://images.unsplash.com/photo-1571008887538-0835e46b4695?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/50/Husqvarna_FC_450.jpg",
         "descripcion": "Herencia KTM con estilo unico. Suspension WP XACT y componentes de carbono para maximo rendimiento en pista."
     },
     {
@@ -80,7 +80,7 @@
         "potencia_cv": 54,
         "peso_kg": 106.5,
         "precio_euros": 10599,
-        "imagen": "https://images.unsplash.com/photo-1544191696-1028e7a794f2?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/d/db/Husqvarna_TE_250_2015.JPG",
         "descripcion": "Inyeccion electronica de dos tiempos para una respuesta suave y predecible en cualquier condicion de enduro."
     },
     {
@@ -92,7 +92,7 @@
         "potencia_cv": 52,
         "peso_kg": 98.0,
         "precio_euros": 8699,
-        "imagen": "https://images.unsplash.com/photo-1558980394-4c7c9299fe96?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/50/Husqvarna_FC_450.jpg",
         "descripcion": "Pura potencia de dos tiempos en un chasis ultraligero. Ideal para pilotos agresivos que buscan adrenalina pura."
     },
     {
@@ -104,7 +104,7 @@
         "potencia_cv": 48,
         "peso_kg": 108.0,
         "precio_euros": 8499,
-        "imagen": "https://images.unsplash.com/photo-1558981380-17d7a72601a2?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Yamaha_YZ450F.jpg",
         "descripcion": "Motor con cilindro invertido y chasis de aluminio Bilbeam. Tecnologia probada en el campeonato mundial MXGP."
     },
     {
@@ -116,7 +116,7 @@
         "potencia_cv": 61,
         "peso_kg": 120.0,
         "precio_euros": 10399,
-        "imagen": "https://images.unsplash.com/photo-1587595287309-0727425a2a63?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Sixth_Generation_WR450F.jpg",
         "descripcion": "Leyenda del enduro. Motor de alto rendimiento con suspension KYB y conectividad Bluetooth para ajustes en ruta."
     },
     {
@@ -128,7 +128,7 @@
         "potencia_cv": 60,
         "peso_kg": 109.0,
         "precio_euros": 9799,
-        "imagen": "https://images.unsplash.com/photo-1625043484555-47841a752940?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Yamaha_YZ450F.jpg",
         "descripcion": "La YZ450F define el estandar de la categoria. Motor potente, chasis rigido y suspension KYB de serie."
     },
     {
@@ -140,7 +140,7 @@
         "potencia_cv": 44,
         "peso_kg": 118.0,
         "precio_euros": 8999,
-        "imagen": "https://images.unsplash.com/photo-1596706919362-3b74396074b6?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/4c/2002WR250F.jpg",
         "descripcion": "Endurera de cuatro tiempos fiable y potente. Perfecta para rutas largas y competiciones de regularidad."
     },
     {
@@ -152,7 +152,7 @@
         "potencia_cv": 59,
         "peso_kg": 112.0,
         "precio_euros": 9699,
-        "imagen": "https://images.unsplash.com/photo-1615172282725-26594a496731?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2010_Honda_CRF450R_at_the_2009_Seattle_International_Motorcycle_Show_1.jpg",
         "descripcion": "Ingenieria japonesa de precision. Chasis rigido, motor con Holeshot Device y suspension Showa de ultima generacion."
     },
     {
@@ -164,7 +164,7 @@
         "potencia_cv": 45,
         "peso_kg": 116.0,
         "precio_euros": 9199,
-        "imagen": "https://images.unsplash.com/photo-1570527140771-020891229bb4?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/04/2010_Honda_CRF250R_at_the_2009_Seattle_International_Motorcycle_Show_3.jpg",
         "descripcion": "Version endurera de la CRF250R. Deposito mas grande, suspension ajustada y homologacion para calle."
     },
     {
@@ -176,7 +176,7 @@
         "potencia_cv": 58,
         "peso_kg": 119.0,
         "precio_euros": 10199,
-        "imagen": "https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2010_Honda_CRF450R_at_the_2009_Seattle_International_Motorcycle_Show_1.jpg",
         "descripcion": "Potencia de 450cc adaptada para enduro. Suspension con recorrido extendido y mapa de motor optimizado."
     },
     {
@@ -188,7 +188,7 @@
         "potencia_cv": 57,
         "peso_kg": 110.5,
         "precio_euros": 9399,
-        "imagen": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/ca/2014_Kawasaki_KX450F_KGTW.jpg",
         "descripcion": "Motor con dedos en los balancines para alta revolucion. Chasis de aluminio ligero y frenos de gran diametro."
     },
     {
@@ -200,7 +200,7 @@
         "potencia_cv": 47,
         "peso_kg": 105.0,
         "precio_euros": 8199,
-        "imagen": "https://images.unsplash.com/photo-1558981285-6f0c94958bb6?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/78/Kawasaki_KX_250.jpg",
         "descripcion": "Herencia multi-campeon. Motor con valvulas de titanio y mapeo de inyeccion personalizable."
     },
     {
@@ -212,7 +212,7 @@
         "potencia_cv": 55,
         "peso_kg": 113.0,
         "precio_euros": 8899,
-        "imagen": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/99/Suzuki_RM-Z450_-_EICMA_2024.jpg",
         "descripcion": "Fiabilidad probada en competicion. Chasis de aluminio doble viga y sistema de gestion de traccion S-HAC."
     },
     {
@@ -224,7 +224,7 @@
         "potencia_cv": 53,
         "peso_kg": 103.5,
         "precio_euros": 9999,
-        "imagen": "https://images.unsplash.com/photo-1517153760308-a222644953a5?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Beta-300RR-racing-2024-FREENDURO.jpg",
         "descripcion": "Artesania italiana con inyeccion de dos tiempos. Manejabilidad excepcional y componentes de primera linea."
     },
     {
@@ -236,7 +236,7 @@
         "potencia_cv": 58,
         "peso_kg": 107.0,
         "precio_euros": 10499,
-        "imagen": "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/60/Beta_RR_2025.jpg",
         "descripcion": "El four-stroke italiano mas ligero. Chasis trellis con subchasis de aluminio y suspension Sachs personalizada."
     },
     {
@@ -248,7 +248,7 @@
         "potencia_cv": 52,
         "peso_kg": 105.5,
         "precio_euros": 9799,
-        "imagen": "https://images.unsplash.com/photo-1506017535682-3df778867638?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/cb/GASGAS_EC_300_GP_-_EICMA_2024.jpg",
         "descripcion": "Espiritu de enduro con estilo atrevido. Plataforma KTM con personalidad propia y ajuste de suspension blando."
     },
     {
@@ -260,7 +260,7 @@
         "potencia_cv": 61,
         "peso_kg": 109.0,
         "precio_euros": 9499,
-        "imagen": "https://images.unsplash.com/photo-1613672715559-5d9177b84e1a?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/70/GASGAS_MC_450_F_-_EICMA_2024.jpg",
         "descripcion": "La moto roja lista para la pista. Potencia agresiva, suspension suave y diseño vibrante."
     },
     {
@@ -272,7 +272,7 @@
         "potencia_cv": 50,
         "peso_kg": 108.0,
         "precio_euros": 10799,
-        "imagen": "https://images.unsplash.com/photo-1566619079979-496079f41da9?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/51/Sherco_450_SEF_Rally.jpg",
         "descripcion": "Tecnologia francesa de competicion. Chasis cromoly rigido y mapa de motor seleccionable en marcha."
     },
     {
@@ -284,7 +284,7 @@
         "potencia_cv": 58,
         "peso_kg": 101.0,
         "precio_euros": 10299,
-        "imagen": "https://images.unsplash.com/photo-1511994298241-608e28f14fde?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/15/TM_Moto_MX_450.jpg",
         "descripcion": "Exclusividad italiana en motocross. Componentes de titanio y fibra de carbono de serie. Hecha a mano."
     },
     {
@@ -296,7 +296,7 @@
         "potencia_cv": 48,
         "peso_kg": 104.0,
         "precio_euros": 10599,
-        "imagen": "https://images.unsplash.com/photo-1525160354320-d8e92641c563?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/8/8c/TM_Moto_EM_300.jpg",
         "descripcion": "La joya de las dos tiempos en enduro. Artesania exclusiva y rendimiento de nivel mundial."
     },
     {
@@ -308,7 +308,7 @@
         "potencia_cv": 38,
         "peso_kg": 91.5,
         "precio_euros": 7499,
-        "imagen": "https://images.unsplash.com/photo-1575330590777-9b53ee547c04?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Ktm_125sx_2019.jpg",
         "descripcion": "La entrada perfecta al motocross competitivo. Motor de 125cc 2T ultraligero y chasis maniobrable."
     },
     {
@@ -320,7 +320,7 @@
         "potencia_cv": 50,
         "peso_kg": 104.0,
         "precio_euros": 9199,
-        "imagen": "https://images.unsplash.com/photo-1610413193698-0df06054d251?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/50/Husqvarna_FC_450.jpg",
         "descripcion": "Elegancia y potencia en 250cc. Subchasis de carbono, suspension XACT y aerodinamica optimizada."
     },
     {
@@ -332,7 +332,7 @@
         "potencia_cv": 64,
         "peso_kg": 110.0,
         "precio_euros": 11299,
-        "imagen": "https://images.unsplash.com/photo-1549719201-f0c442f1d4d2?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/60/Beta_RR_2025.jpg",
         "descripcion": "La maxima cilindrada en enduro. Potencia brutal con gestion electronica para mantener el control total."
     },
     {
@@ -344,7 +344,7 @@
         "potencia_cv": 62,
         "peso_kg": 111.0,
         "precio_euros": 11499,
-        "imagen": "https://images.unsplash.com/photo-1605333319401-5f1382712092?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/51/Sherco_450_SEF_Rally.jpg",
         "descripcion": "La punta de lanza de Sherco. Motor de 450cc con entrega de potencia lineal y suspension KYB de competicion."
     },
     {
@@ -356,7 +356,7 @@
         "potencia_cv": 50,
         "peso_kg": 104.0,
         "precio_euros": 9499,
-        "imagen": "https://images.unsplash.com/photo-1589860427486-c99a3e407190?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/2/20/GasGas_EC250f_2024.jpg",
         "descripcion": "Endurera de dos tiempos accesible y divertida. Perfecta para pilotos que buscan diversión y rendimiento."
     },
     {
@@ -368,7 +368,7 @@
         "potencia_cv": 34,
         "peso_kg": 92.0,
         "precio_euros": 7299,
-        "imagen": "https://images.unsplash.com/photo-1577513880431-9d50575115a8?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Yamaha_YZ125_Motorcycle.jpg",
         "descripcion": "Leyenda de las 125cc 2T. Motor fiable, chasis agile y suspension KYB que marca tendencia."
     },
     {
@@ -380,7 +380,7 @@
         "potencia_cv": 46,
         "peso_kg": 107.0,
         "precio_euros": 8399,
-        "imagen": "https://images.unsplash.com/photo-1580541832626-9696604c9456?auto=format&fit=crop&w=800&q=80",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/04/2010_Honda_CRF250R_at_the_2009_Seattle_International_Motorcycle_Show_3.jpg",
         "descripcion": "Moto de motocross con tecnologia derivada de CRF450R. Ligera, potente y facil de pilotar."
     }
 ]

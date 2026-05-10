@@ -49,7 +49,6 @@ cd Proyecto-Flask
 
 ```bash
 python -m venv app
-
 source app/bin/activate
 ```
 

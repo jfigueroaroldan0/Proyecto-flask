@@ -168,3 +168,52 @@ El archivo `motos.json` contiene un array de objetos con la siguiente estructura
 **Marcas incluidas:** KTM · Husqvarna · Yamaha · Honda · Kawasaki · Suzuki · Beta · GasGas · Sherco · TM Racing
 
 **Cilindradas:** 125cc — 500cc | **Tipos:** Motocross y Enduro
+
+## 🚀 Despliegue con Railway
+
+La web está alojado en **[Railway](https://railway.com/)**, una plataforma de despliegue en la nube que conecta directamente con GitHub y gestiona toda la infraestructura automáticamente, sin necesidad de configurar servidores.
+
+**🌐 Acceso público:** **[https://motoexplorer-production.up.railway.app/](https://web-production-3003d.up.railway.app/)**
+
+---
+
+### ¿Por qué Railway?
+
+- Sin configuración de servidor ni DevOps
+- Integración nativa con GitHub — push y despliega
+- Panel de logs en tiempo real
+- Dominio HTTPS gratuito incluido
+- Plan gratuito suficiente para proyectos académicos
+
+---
+
+### Archivos añadidos para el despliegue
+
+| Archivo | Contenido | Para qué sirve |
+|---|---|---|
+| `requirements.txt` | `flask` `gunicorn` | Lista de dependencias que Railway instala automáticamente |
+| `Procfile` | `web: gunicorn app:app` | Le dice a Railway cómo arrancar la app en producción |
+
+> Railway detecta automáticamente que es una app Python gracias al `requirements.txt`. No hace falta configurar nada más.
+
+---
+
+### Flujo de despliegue
+
+```
+Cambio en el código
+       ↓
+  git push main
+       ↓
+Railway detecta el push
+       ↓
+Instala dependencias (requirements.txt)
+       ↓
+Arranca la app (Procfile → gunicorn)
+       ↓
+App disponible en la URL pública ✅
+```
+
+Cada `git push` a `main` lanza un nuevo despliegue de forma automática, sin intervención manual.
+
+---

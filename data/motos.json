@@ -32,7 +32,7 @@
         "potencia_cv": 63,
         "peso_kg": 106.4,
         "precio_euros": 10699,
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/78/KTM_350_EXC-F_2015.JPG",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/42/KTM_350_EXC-F.JPG",
         "descripcion": "El equilibrio perfecto entre la manejabilidad de una 250 y la potencia de una 450. Ideal para pilotos que buscan versatilidad."
     },
     {
@@ -92,7 +92,7 @@
         "potencia_cv": 52,
         "peso_kg": 98.0,
         "precio_euros": 8699,
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Husqvarna_TC_250_%2823301755760%29.jpg",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/50/Husqvarna_FC_450.jpg",
         "descripcion": "Pura potencia de dos tiempos en un chasis ultraligero. Ideal para pilotos agresivos que buscan adrenalina pura."
     },
     {
@@ -104,7 +104,7 @@
         "potencia_cv": 48,
         "peso_kg": 108.0,
         "precio_euros": 8499,
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Yamaha_YZ250F_-_EICMA_2024.jpg",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Yamaha_YZ450F.jpg",
         "descripcion": "Motor con cilindro invertido y chasis de aluminio Bilbeam. Tecnologia probada en el campeonato mundial MXGP."
     },
     {
@@ -152,7 +152,7 @@
         "potencia_cv": 59,
         "peso_kg": 112.0,
         "precio_euros": 9699,
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2010_Honda_CRF450R_at_the_2009_Seattle_International_Motorcycle_Show_1.jpg",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/8/81/Honda_CRF450R.jpg",
         "descripcion": "Ingenieria japonesa de precision. Chasis rigido, motor con Holeshot Device y suspension Showa de ultima generacion."
     },
     {
@@ -164,7 +164,7 @@
         "potencia_cv": 45,
         "peso_kg": 116.0,
         "precio_euros": 9199,
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/04/2010_Honda_CRF250R_at_the_2009_Seattle_International_Motorcycle_Show_3.jpg",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/58/Honda_crf_450_tokyo.JPG",
         "descripcion": "Version endurera de la CRF250R. Deposito mas grande, suspension ajustada y homologacion para calle."
     },
     {
@@ -176,7 +176,7 @@
         "potencia_cv": 58,
         "peso_kg": 119.0,
         "precio_euros": 10199,
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2010_Honda_CRF450R_at_the_2009_Seattle_International_Motorcycle_Show_1.jpg",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Honda_CRF450RX%40Motodays_2017.jpg",
         "descripcion": "Potencia de 450cc adaptada para enduro. Suspension con recorrido extendido y mapa de motor optimizado."
     },
     {
@@ -380,7 +380,7 @@
         "potencia_cv": 46,
         "peso_kg": 107.0,
         "precio_euros": 8399,
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/04/2010_Honda_CRF250R_at_the_2009_Seattle_International_Motorcycle_Show_3.jpg",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/58/Honda_crf_450_tokyo.JPG",
         "descripcion": "Moto de motocross con tecnologia derivada de CRF450R. Ligera, potente y facil de pilotar."
     }
 ]

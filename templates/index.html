@@ -2,6 +2,7 @@
 {% block title %}ENDUROX - Ready To Race{% endblock %}
 {% block content %}
 <section class="ktm-hero">
+    <a href="{{ url_for('items') }}" class="ktm-hero-link"></a>
     <div class="ktm-hero-image">
         <img src="{{ url_for('static', filename='images/prin.jpg') }}" alt="Enduro Motocross">
     </div>
@@ -9,17 +10,6 @@
     <div class="ktm-hero-content">
         <p class="ktm-hero-eyebrow">REDEFINE THE LIMITS</p>
         <h1 class="ktm-hero-title">2026 ENDURO<br><span class="text-orange">& MOTOCROSS</span> RANGE</h1>
-        <div class="ktm-hero-buttons">
-            <a href="{{ url_for('items') }}" class="ktm-btn ktm-btn-primary">
-                EXPLORAR ENDURO
-            </a>
-            <a href="{{ url_for('items') }}" class="ktm-btn ktm-btn-outline">
-                EXPLORAR MOTOCROSS
-            </a>
-        </div>
-    </div>
-    <div class="ktm-hero-scroll">
-        <span>Scroll down</span>
     </div>
 </section>
 {% endblock %}

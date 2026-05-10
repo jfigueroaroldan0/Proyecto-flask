@@ -61,6 +61,13 @@ def items():
     return render_template(
         "catalogo.html", motos=motos, marcas=marcas, titulo=titulo, total_resultados=len(motos), nombre_busqueda=nombre_busqueda, marca_seleccionada=marca_seleccionada, tipo_seleccionado=tipo_seleccionado, ordenar=ordenar)
 
+@app.route("/motos/<int:id>")
+def detalle(id):
+    moto = next((m for m in MOTOS if m["id"] == id), None)
+    if moto is None:
+        abort(404)
+    return render_template("detalle.html", moto=moto)
+
 @app.errorhandler(404)
 def error(e):
     return render_template("404.html"), 404
